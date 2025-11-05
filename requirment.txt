@@ -1,0 +1,68 @@
+Create a ".env" nmaed file and add there your api key of OpenAI as
+	OPENAI_API_KEY=sk-prj-YOUR API KEY
+
+Here’s a short list of what to install for this single-file Flask + OpenAI project and the exact commands for Windows (PowerShell and CMD).
+
+What you need
+
+Python 3.8 or newer
+A virtual environment (recommended)
+pip packages: flask, python-dotenv, openai
+(Optional) waitress for running in production on Windows
+PowerShell commands
+
+# create & activate venv
+python -m venv venv
+.\venv\Scripts\Activate.ps1
+
+# upgrade pip
+python -m pip install --upgrade pip
+
+# install required packages
+pip install flask python-dotenv openai
+
+# optional (production on Windows)
+pip install waitress
+
+CMD commands
+python -m venv venv
+venv\Scripts\activate.bat
+python -m pip install --upgrade pip
+pip install flask python-dotenv openai
+pip install waitress
+
+
+Optional: create requirements.txt
+flask
+python-dotenv
+openai
+# waitress   # uncomment if using in production on Windows
+
+After install, run:
+python e:\AI\chatgpt_cli.py
+
+
+
+# create & activate venv
+python -m venv venv
+.\venv\Scripts\Activate.ps1
+
+# upgrade pip
+python -m pip install --upgrade pip
+
+# install required packages
+pip install flask python-dotenv openai
+
+# optional (production)
+pip install waitress
+
+
+python -m venv venv
+venv\Scripts\activate.bat
+python -m pip install --upgrade pip
+pip install flask python-dotenv openai
+pip install waitress
+
+
+pip install flask python-dotenv openai
+```pip install flask python-dotenv openai
